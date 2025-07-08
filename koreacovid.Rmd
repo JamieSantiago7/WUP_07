@@ -60,6 +60,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+When looking at the numbers 64 out of 100 males are dead and 36 out of 100 females are dead. There is a higher percentage of males loosing their lives than females.
 
 ## Inferential results 
 
