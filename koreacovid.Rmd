@@ -39,18 +39,19 @@ kr3 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt
 
 
 ```{r}
-basicC <- ggplot(kr3,aes(x=Sex,y=count,fill=Sex))
+basicC <- ggplot(kr3,aes(x=Sex,y=count,fill=result))
 basicC + geom_bar(stat="identity",position="dodge")
 ```
 
-This chart shows that the count of women is greater than men pool.
+This chart shows that the count of women is greater than men pool.  
 
 
 ```{r}
 basicCC <- ggplot(kr3,aes(x=result,y=prcnt*100,fill=Sex)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
-These graphs show that more males are killed by COVID than females.
+
+These graphs show that more males are killed by COVID than females.  
   
   
 ## Numerical results
