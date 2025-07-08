@@ -71,7 +71,9 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-Based on this test Covid is killing more males than females, percentagewise that is.
+Based on this test Covid is killing more males than females.
 
 ## Conclusions
+
+Percentagewise there were more females in the alive category than males. Also percentagewise males dominated the dead category. This shows that the death toll was not equivalent between male or female, surprisingly. 
 
